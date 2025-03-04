@@ -41,3 +41,9 @@ Now, with the circuit ready, lets us perform DC Analysis on the circuit.
   To analyse the AC part of the circuit, let us set the sinusoidal input as before to the gate voltage sources and set the AC amplitude as 1. Now, Let us observe the frequency graph.
   ![Screenshot 2025-03-03 202036](https://github.com/user-attachments/assets/a68fea32-a2c9-4a2d-881f-65747e554af4)
 As we can see, there is a negligible amount of variation in gain with the previous resistor circuit and the present current source. 
+#### Replacing Current source with N-channel MOSFET
+  Let us move to the final circuit. Replace the current source with an NMOS. The theory explanation for this is that the MOSFET acts as a CONSTANT CURRENT SOURCE when voltage is given to the gate terminal to make it work in the saturation region. After adjusting the W and L values to make sure that the MOSFET is conducting 1mA through it. After calculating, we found the W and L value to be L=180n and W=6.89912u. Now let us conduct DC Analysis.
+### DC Analysis
+  ![Screenshot 2025-03-03 215327](https://github.com/user-attachments/assets/89fa7561-edfc-489c-a1d2-d58bf7551879)
+![Screenshot 2025-03-03 215757](https://github.com/user-attachments/assets/4cb970a5-f5bf-46b9-9131-b069c59e464e)
+![Screenshot 2025-03-03 215305](https://github.com/user-attachments/assets/ff770a3b-2401-45dd-b322-d37edddfe8d5)
